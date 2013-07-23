@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0D1CC2166E2178009FBE04 /* GMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D1CB8166E2178009FBE04 /* GMGridView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6F0D1CC3166E2178009FBE04 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D1CBA166E2178009FBE04 /* GMGridViewCell.m */; };
+		6F0D1CC4166E2178009FBE04 /* GMGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D1CBD166E2178009FBE04 /* GMGridViewLayoutStrategies.m */; };
+		6F0D1CC5166E2178009FBE04 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D1CBF166E2178009FBE04 /* UIGestureRecognizer+GMGridViewAdditions.m */; };
+		6F0D1CC6166E2178009FBE04 /* UIView+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D1CC1166E2178009FBE04 /* UIView+GMGridViewAdditions.m */; };
+		6F0D1CCC166E2678009FBE04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D1CCB166E2678009FBE04 /* QuartzCore.framework */; };
+		6F2C5B501670724B003C824C /* FKDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2C5B4F1670724B003C824C /* FKDrag.m */; };
+		6F58F2D416730E770007739A /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 6F58F2D316730E770007739A /* ReadMe */; };
+		6FB275E916731DFE00EA2F48 /* libGMGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D1CB2166E2061009FBE04 /* libGMGridView.a */; };
+		7312466A166D3CF100DC5181 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73124669166D3CF100DC5181 /* UIKit.framework */; };
+		7312466C166D3CF100DC5181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7312466B166D3CF100DC5181 /* Foundation.framework */; };
+		7312466E166D3CF100DC5181 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7312466D166D3CF100DC5181 /* CoreGraphics.framework */; };
+		73124674166D3CF100DC5181 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73124672166D3CF100DC5181 /* InfoPlist.strings */; };
+		73124676166D3CF100DC5181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73124675166D3CF100DC5181 /* main.m */; };
+		7312467A166D3CF100DC5181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73124679166D3CF100DC5181 /* AppDelegate.m */; };
+		7312467C166D3CF100DC5181 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312467B166D3CF100DC5181 /* Default.png */; };
+		7312467E166D3CF100DC5181 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312467D166D3CF100DC5181 /* Default@2x.png */; };
+		73124680166D3CF100DC5181 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7312467F166D3CF100DC5181 /* Default-568h@2x.png */; };
+		73124689166D3D5A00DC5181 /* dragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73124687166D3D5A00DC5181 /* dragViewController.m */; };
+		7312468A166D3D5A00DC5181 /* dragViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73124688166D3D5A00DC5181 /* dragViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F0D1CB1166E2061009FBE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0D1C9C166E2061009FBE04 /* GMGridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78509312149FAC2E000787E4;
+			remoteInfo = GMGridView;
+		};
+		6F0D1CB3166E20DF009FBE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0D1C9C166E2061009FBE04 /* GMGridView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78509311149FAC2E000787E4;
+			remoteInfo = GMGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F0D1C9C166E2061009FBE04 /* GMGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GMGridView.xcodeproj; sourceTree = "<group>"; };
+		6F0D1CB6166E2178009FBE04 /* GMGridView-Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMGridView-Constants.h"; sourceTree = "<group>"; };
+		6F0D1CB7166E2178009FBE04 /* GMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridView.h; sourceTree = "<group>"; };
+		6F0D1CB8166E2178009FBE04 /* GMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridView.m; sourceTree = "<group>"; };
+		6F0D1CB9166E2178009FBE04 /* GMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewCell.h; sourceTree = "<group>"; };
+		6F0D1CBA166E2178009FBE04 /* GMGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewCell.m; sourceTree = "<group>"; };
+		6F0D1CBB166E2178009FBE04 /* GMGridViewCell+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMGridViewCell+Extended.h"; sourceTree = "<group>"; };
+		6F0D1CBC166E2178009FBE04 /* GMGridViewLayoutStrategies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGridViewLayoutStrategies.h; sourceTree = "<group>"; };
+		6F0D1CBD166E2178009FBE04 /* GMGridViewLayoutStrategies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGridViewLayoutStrategies.m; sourceTree = "<group>"; };
+		6F0D1CBE166E2178009FBE04 /* UIGestureRecognizer+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		6F0D1CBF166E2178009FBE04 /* UIGestureRecognizer+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		6F0D1CC0166E2178009FBE04 /* UIView+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		6F0D1CC1166E2178009FBE04 /* UIView+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GMGridViewAdditions.m"; sourceTree = "<group>"; };
+		6F0D1CCB166E2678009FBE04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F2C5B4E1670724B003C824C /* FKDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKDrag.h; sourceTree = "<group>"; };
+		6F2C5B4F1670724B003C824C /* FKDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKDrag.m; sourceTree = "<group>"; };
+		6F58F2D316730E770007739A /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		73124665166D3CF100DC5181 /* drag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73124669166D3CF100DC5181 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7312466B166D3CF100DC5181 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7312466D166D3CF100DC5181 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73124671166D3CF100DC5181 /* drag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "drag-Info.plist"; sourceTree = "<group>"; };
+		73124673166D3CF100DC5181 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73124675166D3CF100DC5181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73124677166D3CF100DC5181 /* drag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "drag-Prefix.pch"; sourceTree = "<group>"; };
+		73124678166D3CF100DC5181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73124679166D3CF100DC5181 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7312467B166D3CF100DC5181 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7312467D166D3CF100DC5181 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7312467F166D3CF100DC5181 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		73124686166D3D5A00DC5181 /* dragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dragViewController.h; sourceTree = "<group>"; };
+		73124687166D3D5A00DC5181 /* dragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dragViewController.m; sourceTree = "<group>"; };
+		73124688166D3D5A00DC5181 /* dragViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dragViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73124662166D3CF100DC5181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB275E916731DFE00EA2F48 /* libGMGridView.a in Frameworks */,
+				6F0D1CCC166E2678009FBE04 /* QuartzCore.framework in Frameworks */,
+				7312466A166D3CF100DC5181 /* UIKit.framework in Frameworks */,
+				7312466C166D3CF100DC5181 /* Foundation.framework in Frameworks */,
+				7312466E166D3CF100DC5181 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0D1C9D166E2061009FBE04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D1CB2166E2061009FBE04 /* libGMGridView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0D1CC7166E2648009FBE04 /* GMGridview */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D1CB6166E2178009FBE04 /* GMGridView-Constants.h */,
+				6F0D1CB7166E2178009FBE04 /* GMGridView.h */,
+				6F0D1CB8166E2178009FBE04 /* GMGridView.m */,
+				6F0D1CB9166E2178009FBE04 /* GMGridViewCell.h */,
+				6F0D1CBA166E2178009FBE04 /* GMGridViewCell.m */,
+				6F0D1CBB166E2178009FBE04 /* GMGridViewCell+Extended.h */,
+				6F0D1CBC166E2178009FBE04 /* GMGridViewLayoutStrategies.h */,
+				6F0D1CBD166E2178009FBE04 /* GMGridViewLayoutStrategies.m */,
+				6F0D1CBE166E2178009FBE04 /* UIGestureRecognizer+GMGridViewAdditions.h */,
+				6F0D1CBF166E2178009FBE04 /* UIGestureRecognizer+GMGridViewAdditions.m */,
+				6F0D1CC0166E2178009FBE04 /* UIView+GMGridViewAdditions.h */,
+				6F0D1CC1166E2178009FBE04 /* UIView+GMGridViewAdditions.m */,
+				6F0D1C9C166E2061009FBE04 /* GMGridView.xcodeproj */,
+			);
+			name = GMGridview;
+			sourceTree = "<group>";
+		};
+		7312465A166D3CF100DC5181 = {
+			isa = PBXGroup;
+			children = (
+				6F58F2D316730E770007739A /* ReadMe */,
+				6F2C5B4E1670724B003C824C /* FKDrag.h */,
+				6F2C5B4F1670724B003C824C /* FKDrag.m */,
+				6F0D1CC7166E2648009FBE04 /* GMGridview */,
+				7312466F166D3CF100DC5181 /* drag */,
+				73124668166D3CF100DC5181 /* Frameworks */,
+				73124666166D3CF100DC5181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73124666166D3CF100DC5181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73124665166D3CF100DC5181 /* drag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73124668166D3CF100DC5181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D1CCB166E2678009FBE04 /* QuartzCore.framework */,
+				73124669166D3CF100DC5181 /* UIKit.framework */,
+				7312466B166D3CF100DC5181 /* Foundation.framework */,
+				7312466D166D3CF100DC5181 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7312466F166D3CF100DC5181 /* drag */ = {
+			isa = PBXGroup;
+			children = (
+				73124678166D3CF100DC5181 /* AppDelegate.h */,
+				73124679166D3CF100DC5181 /* AppDelegate.m */,
+				73124670166D3CF100DC5181 /* Supporting Files */,
+				73124686166D3D5A00DC5181 /* dragViewController.h */,
+				73124687166D3D5A00DC5181 /* dragViewController.m */,
+				73124688166D3D5A00DC5181 /* dragViewController.xib */,
+			);
+			path = drag;
+			sourceTree = "<group>";
+		};
+		73124670166D3CF100DC5181 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73124671166D3CF100DC5181 /* drag-Info.plist */,
+				73124672166D3CF100DC5181 /* InfoPlist.strings */,
+				73124675166D3CF100DC5181 /* main.m */,
+				73124677166D3CF100DC5181 /* drag-Prefix.pch */,
+				7312467B166D3CF100DC5181 /* Default.png */,
+				7312467D166D3CF100DC5181 /* Default@2x.png */,
+				7312467F166D3CF100DC5181 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73124664166D3CF100DC5181 /* drag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73124683166D3CF100DC5181 /* Build configuration list for PBXNativeTarget "drag" */;
+			buildPhases = (
+				73124661166D3CF100DC5181 /* Sources */,
+				73124662166D3CF100DC5181 /* Frameworks */,
+				73124663166D3CF100DC5181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F0D1CB4166E20DF009FBE04 /* PBXTargetDependency */,
+			);
+			name = drag;
+			productName = drag;
+			productReference = 73124665166D3CF100DC5181 /* drag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7312465C166D3CF100DC5181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "agilepc-105";
+			};
+			buildConfigurationList = 7312465F166D3CF100DC5181 /* Build configuration list for PBXProject "drag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7312465A166D3CF100DC5181;
+			productRefGroup = 73124666166D3CF100DC5181 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6F0D1C9D166E2061009FBE04 /* Products */;
+					ProjectRef = 6F0D1C9C166E2061009FBE04 /* GMGridView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				73124664166D3CF100DC5181 /* drag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6F0D1CB2166E2061009FBE04 /* libGMGridView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGMGridView.a;
+			remoteRef = 6F0D1CB1166E2061009FBE04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73124663166D3CF100DC5181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73124674166D3CF100DC5181 /* InfoPlist.strings in Resources */,
+				7312467C166D3CF100DC5181 /* Default.png in Resources */,
+				7312467E166D3CF100DC5181 /* Default@2x.png in Resources */,
+				73124680166D3CF100DC5181 /* Default-568h@2x.png in Resources */,
+				7312468A166D3D5A00DC5181 /* dragViewController.xib in Resources */,
+				6F58F2D416730E770007739A /* ReadMe in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73124661166D3CF100DC5181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73124676166D3CF100DC5181 /* main.m in Sources */,
+				7312467A166D3CF100DC5181 /* AppDelegate.m in Sources */,
+				73124689166D3D5A00DC5181 /* dragViewController.m in Sources */,
+				6F0D1CC2166E2178009FBE04 /* GMGridView.m in Sources */,
+				6F0D1CC3166E2178009FBE04 /* GMGridViewCell.m in Sources */,
+				6F0D1CC4166E2178009FBE04 /* GMGridViewLayoutStrategies.m in Sources */,
+				6F0D1CC5166E2178009FBE04 /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */,
+				6F0D1CC6166E2178009FBE04 /* UIView+GMGridViewAdditions.m in Sources */,
+				6F2C5B501670724B003C824C /* FKDrag.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F0D1CB4166E20DF009FBE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GMGridView;
+			targetProxy = 6F0D1CB3166E20DF009FBE04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73124672166D3CF100DC5181 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73124673166D3CF100DC5181 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73124681166D3CF100DC5181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73124682166D3CF100DC5181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73124684166D3CF100DC5181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ruchir Shah (4TT4AU2JV9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ruchir Shah (4TT4AU2JV9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "drag/drag-Prefix.pch";
+				HEADER_SEARCH_PATHS = "GMGridView/**";
+				INFOPLIST_FILE = "drag/drag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = drag;
+				PROVISIONING_PROFILE = "34A1B087-32E8-4985-BE3B-C2D47B5D632C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "34A1B087-32E8-4985-BE3B-C2D47B5D632C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73124685166D3CF100DC5181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ruchir Shah (4TT4AU2JV9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ruchir Shah (4TT4AU2JV9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "drag/drag-Prefix.pch";
+				HEADER_SEARCH_PATHS = "GMGridView/**";
+				INFOPLIST_FILE = "drag/drag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = drag;
+				PROVISIONING_PROFILE = "34A1B087-32E8-4985-BE3B-C2D47B5D632C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "34A1B087-32E8-4985-BE3B-C2D47B5D632C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7312465F166D3CF100DC5181 /* Build configuration list for PBXProject "drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73124681166D3CF100DC5181 /* Debug */,
+				73124682166D3CF100DC5181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73124683166D3CF100DC5181 /* Build configuration list for PBXNativeTarget "drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73124684166D3CF100DC5181 /* Debug */,
+				73124685166D3CF100DC5181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7312465C166D3CF100DC5181 /* Project object */;
+}
