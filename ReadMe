@@ -1,0 +1,26 @@
+//  Created by Foram Mukund Shah on 12/8/12.
+
+Note :  comment ios6 orientation methods in order to run app with ios<6
+
+1. Download GMGridView folder from https://github.com/gmoledina/GMGridView 
+2. right click on any file group from your project and choose add files
+3  find GMGridView folder from your Downloads folder dir and choose GMGridView.xcodeproj
+4  go to your project targets - search - HEADER_SEARCH_PATHS add-  GMGridView/**
+5  select Building phases in settings - choose target dependencies and add GMGridView
+6  select Building phases in settings - link binary libraries and add libGMGridView.a
+7  right click on any file group from your project and choose add files
+8  find FKDrag.h/FKDrag.m files from your Downloads folder dir and choose add files
+9  Go to your ViewController where you want your DragView
+10 import "FKDrag.h" in your viewConroller.h
+
+// -----------------------Inherit FKDrag into your project
+
+11 Extend your ViewController to FKDrag
+   (here: @interface dragViewController : FKDrag)
+12 Customise your ViewController.m as per your requirement
+
+// ------------You are done with your drag view --------------------
+
+Enjoy Programming
+
+
